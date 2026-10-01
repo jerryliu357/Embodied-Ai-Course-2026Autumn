@@ -1,0 +1,18 @@
+{
+  "repository": "https://github.com/huggingface/lerobot",
+  "source_commit": "89236ea0f4f81a81ca566081e20dd1ff5f823cbe",
+  "source": "Exact runtime files from the tested local LeRobot environment.",
+  "local_packaging": [
+    "src/lerobot/__init__.py",
+    "src/lerobot/utils/__init__.py"
+  ],
+  "files": {
+    "src/lerobot/utils/import_utils.py": "c4316fa010c9a1ab8cbe15f7bcc6d0056afb34a15b5b8f0916245a7e70a3aae3",
+    "src/lerobot/utils/decorators.py": "44280a838165fc77eb204dd08b8138c6ac2e54a50268e22d56acf43fdc5c6197",
+    "src/lerobot/utils/errors.py": "f6a90ad226f48ecc5618621b4d3e18ca60fc0b6ee5d78da6522b9a6a54f57f62",
+    "src/lerobot/utils/utils.py": "0c663bb46700f5b2a4e1bcbbf9ef59638cdf105f8c35fab7b50474afd1659906",
+    "LICENSE_LeRobot": "b1573f6d552b494f1bac1116d2373daca84ac29f7e7f75ac65a13e41cde029cc",
+    "src/lerobot/__init__.py": "b653b4a114727bfd19bd50e258b48c4ff7cd341d29bff1df89385162998c7fa2",
+    "src/lerobot/utils/__init__.py": "b653b4a114727bfd19bd50e258b48c4ff7cd341d29bff1df89385162998c7fa2"
+  }
+}

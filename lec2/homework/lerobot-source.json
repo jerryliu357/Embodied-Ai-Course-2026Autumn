@@ -1,0 +1,6 @@
+{
+  "repository": "https://github.com/huggingface/lerobot.git",
+  "revision": "89236ea0f4f81a81ca566081e20dd1ff5f823cbe",
+  "local_path": "lec2/homework/lerobot",
+  "note": "The independent LeRobot checkout is excluded from this course repository. The local lerobot Conda environment uses an editable installation from this directory."
+}

@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "joint_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "calibration_fingerprint": "4ae14065de3bb5888d1367354b7c8796ffc48b27958599ece9f0cc2954e5f10f",
+  "settings": {
+    "speed_limit": 100,
+    "pose_seconds": 3.0
+  },
+  "poses": {
+    "stand": {
+      "label": "立正",
+      "values": null,
+      "source": "Needs re-recording after ID5 reassembly"
+    },
+    "lift": {
+      "label": "抬起",
+      "values": null,
+      "source": "Needs re-recording after ID5 reassembly"
+    },
+    "left": {
+      "label": "向左",
+      "values": null,
+      "source": "Needs re-recording after ID5 reassembly"
+    },
+    "right": {
+      "label": "向右",
+      "values": null,
+      "source": "Needs re-recording after ID5 reassembly"
+    },
+    "middle": {
+      "label": "上次 Middle",
+      "values": [
+        0.4553072625698324,
+        0.5398230088495575,
+        0.5513698630136986,
+        0.5157232704402516,
+        0.5,
+        0.038560411311053984
+      ],
+      "source": "Previous Middle references for ID1-4/6; user supplied ID5 zero=688 after reassembly. Not a new simultaneous hardware capture.",
+      "raw_positions": {
+        "1": 383,
+        "2": 683,
+        "3": 641,
+        "4": 649,
+        "5": 688,
+        "6": 112
+      },
+      "endpoint_adjustments": {},
+      "updated_at": "2026-10-01T13:58:26.176796+08:00"
+    },
+    "zero": {
+      "label": "上次 Zero",
+      "values": null,
+      "source": "Needs re-recording after ID5 reassembly"
+    },
+    "rotated": {
+      "label": "上次 Rotated",
+      "values": null,
+      "source": "Needs re-recording after ID5 reassembly"
+    },
+    "rest": {
+      "label": "上次 Rest",
+      "values": null,
+      "source": "Needs re-recording after ID5 reassembly"
+    }
+  },
+  "actions": {
+    "wave": {
+      "label": "挥手",
+      "steps": [
+        {
+          "pose": "rest",
+          "seconds": 5.0,
+          "hold": 0.5
+        },
+        {
+          "pose": "lift",
+          "seconds": 5.0,
+          "hold": 0.5
+        },
+        {
+          "pose": "left",
+          "seconds": 5.0,
+          "hold": 0.5
+        },
+        {
+          "pose": "right",
+          "seconds": 5.0,
+          "hold": 0.5
+        },
+        {
+          "pose": "rest",
+          "seconds": 5.0,
+          "hold": 0.0
+        }
+      ]
+    }
+  },
+  "pose_invalidation": {
+    "invalidated_at": "2026-10-01T13:58:26.176796+08:00",
+    "joint_ids": [
+      5
+    ],
+    "reason": "ID5 reassembled; only current Middle retained. Other named slots remain empty for manual recording."
+  }
+}

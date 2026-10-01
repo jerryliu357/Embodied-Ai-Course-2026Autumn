@@ -1,0 +1,24 @@
+{
+  "repository": "https://github.com/huggingface/lerobot",
+  "source_commit": "89236ea0f4f81a81ca566081e20dd1ff5f823cbe",
+  "source": "Exact runtime files from the tested local LeRobot environment.",
+  "local_packaging": [
+    "src/lerobot/__init__.py",
+    "src/lerobot/utils/__init__.py"
+  ],
+  "files": {
+    "src/lerobot/motors/__init__.py": "3f484249761f33e301956930eb86bdc192099efc07f90c2e1f81a124b4f96427",
+    "src/lerobot/motors/motors_bus.py": "5378c66576dea7b8ab8d02d204851b4d2941ece76c0b2936f3d09d95d92b5561",
+    "src/lerobot/motors/encoding_utils.py": "3f14c41258e8440762b59f990cb4799bec810e793d74c4ae4b3b2345ca6bcb35",
+    "src/lerobot/motors/feetech/__init__.py": "108fa8246af48c0656bab18d0bcdbb60b62f5e89500785cbd91af3e2fa650297",
+    "src/lerobot/motors/feetech/feetech.py": "9f561aab79be7560e8617d6dea0871a0f3b174202a904fd65c018fdcc4a1a4d7",
+    "src/lerobot/motors/feetech/tables.py": "3913700df66f7f3d02f4587266427c68f848d86592801b21f3fcf20347dc4d66",
+    "src/lerobot/utils/import_utils.py": "c4316fa010c9a1ab8cbe15f7bcc6d0056afb34a15b5b8f0916245a7e70a3aae3",
+    "src/lerobot/utils/decorators.py": "44280a838165fc77eb204dd08b8138c6ac2e54a50268e22d56acf43fdc5c6197",
+    "src/lerobot/utils/errors.py": "f6a90ad226f48ecc5618621b4d3e18ca60fc0b6ee5d78da6522b9a6a54f57f62",
+    "src/lerobot/utils/utils.py": "0c663bb46700f5b2a4e1bcbbf9ef59638cdf105f8c35fab7b50474afd1659906",
+    "LICENSE": "b1573f6d552b494f1bac1116d2373daca84ac29f7e7f75ac65a13e41cde029cc",
+    "src/lerobot/__init__.py": "b653b4a114727bfd19bd50e258b48c4ff7cd341d29bff1df89385162998c7fa2",
+    "src/lerobot/utils/__init__.py": "b653b4a114727bfd19bd50e258b48c4ff7cd341d29bff1df89385162998c7fa2"
+  }
+}

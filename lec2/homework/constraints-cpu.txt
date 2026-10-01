@@ -1,0 +1,4 @@
+# Compatible with this checkout and the official PyTorch/TorchCodec matrices.
+torch==2.11.0+cpu
+torchvision==0.26.0+cpu
+torchcodec==0.11.0

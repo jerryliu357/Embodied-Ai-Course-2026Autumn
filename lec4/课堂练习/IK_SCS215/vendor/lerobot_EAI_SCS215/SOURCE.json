@@ -1,0 +1,13 @@
+﻿{
+    "files":  {
+                  "src/lerobot/motors/motors_bus.py":  "caaf43f1a85082a25c161837d412fd958be80eedd582f024246220fe6d815d2b",
+                  "src/lerobot/motors/feetech/__init__.py":  "fbe4b7f74bc74cc22d97a641c7c71a1b51c95a5b48ec366a71ad15fc16c6f587",
+                  "src/lerobot/motors/feetech/feetech.py":  "93ed4cae376c90d3a8b1ebe5ee505f0bc199bc375283049137ccdc3a48261524",
+                  "src/lerobot/motors/feetech/tables.py":  "9dd59d53a01b5a66e8f53a03b63198e86109b5c625415c79abb75614bdbe89ea",
+                  "src/lerobot/motors/__init__.py":  "62eeea3be4a3f0e77dda40076e2420571dc3b3b564ae1f9f244811523d906fc4",
+                  "src/lerobot/motors/encoding_utils.py":  "5285eb2b3f62399e95a2fa4b2fcab631bcad547124e8cc9b6a61525148bc924a",
+                  "LICENSE":  "9e108af26a7ae92a6d2cb0273856a4a0a84da8819c2cffee8b2657cc4f905718"
+              },
+    "commit":  "bd2ee0bd961904090873d208fe79dc0ab3a4f863",
+    "repository":  "https://github.com/JyiDeng/lerobot_EAI_SCS215"
+}
