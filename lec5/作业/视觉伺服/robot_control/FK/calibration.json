@@ -1,0 +1,175 @@
+{
+  "schema_version": 5,
+  "model": "SCS215",
+  "byte_order": "big",
+  "port": "COM9",
+  "baudrate": 1000000,
+  "adapter_serial": "5B90151486",
+  "position_count": 1024,
+  "method": "current_user_confirmed_ranges",
+  "updated_at": "2026-10-01T13:58:26.176796+08:00",
+  "mapping": "round(zero_position + x * span_raw) % 1024",
+  "degrees_per_count": 0.322265625,
+  "range_capture_completed": true,
+  "motion_tested": false,
+  "collision_free_for_all_combinations": false,
+  "requires_boundary_resolution": false,
+  "calibration_status": "recorded_continuous_ranges",
+  "joints": {
+    "1": {
+      "id": 1,
+      "name": "shoulder_pan",
+      "label": "底座旋转",
+      "zero_position": 57,
+      "one_position": 773,
+      "one_unwrapped_position": 773,
+      "span_raw": 716,
+      "min_position": 57,
+      "max_position": 773,
+      "raw_direction": 1,
+      "wraps_numeric_boundary": false,
+      "requires_boundary_resolution": false,
+      "angle_zero_position": 383
+    },
+    "2": {
+      "id": 2,
+      "name": "shoulder_lift",
+      "label": "肩部抬升",
+      "zero_position": 317,
+      "one_position": 995,
+      "one_unwrapped_position": 995,
+      "span_raw": 678,
+      "min_position": 317,
+      "max_position": 995,
+      "raw_direction": 1,
+      "wraps_numeric_boundary": false,
+      "requires_boundary_resolution": false,
+      "angle_zero_position": 683
+    },
+    "3": {
+      "id": 3,
+      "name": "elbow_flex",
+      "label": "肘部弯曲",
+      "zero_position": 319,
+      "one_position": 903,
+      "one_unwrapped_position": 903,
+      "span_raw": 584,
+      "min_position": 319,
+      "max_position": 903,
+      "raw_direction": 1,
+      "wraps_numeric_boundary": false,
+      "requires_boundary_resolution": false,
+      "angle_zero_position": 641
+    },
+    "4": {
+      "id": 4,
+      "name": "wrist_flex",
+      "label": "手腕弯曲",
+      "zero_position": 321,
+      "one_position": 957,
+      "one_unwrapped_position": 957,
+      "span_raw": 636,
+      "min_position": 321,
+      "max_position": 957,
+      "raw_direction": 1,
+      "wraps_numeric_boundary": false,
+      "requires_boundary_resolution": false,
+      "angle_zero_position": 649
+    },
+    "5": {
+      "id": 5,
+      "name": "wrist_roll",
+      "label": "手腕旋转",
+      "zero_position": 400,
+      "one_position": 976,
+      "one_unwrapped_position": 976,
+      "span_raw": 576,
+      "min_position": 400,
+      "max_position": 976,
+      "raw_direction": 1,
+      "wraps_numeric_boundary": false,
+      "requires_boundary_resolution": false,
+      "angle_zero_position": 688
+    },
+    "6": {
+      "id": 6,
+      "name": "gripper",
+      "label": "夹爪",
+      "zero_position": 97,
+      "one_position": 486,
+      "one_unwrapped_position": 486,
+      "span_raw": 389,
+      "min_position": 97,
+      "max_position": 486,
+      "raw_direction": 1,
+      "wraps_numeric_boundary": false,
+      "requires_boundary_resolution": false,
+      "angle_zero_position": 112
+    }
+  },
+  "zero_pose_raw": {
+    "1": 57,
+    "2": 317,
+    "3": 319,
+    "4": 321,
+    "5": 400,
+    "6": 97
+  },
+  "one_positions_raw": {
+    "1": 773,
+    "2": 995,
+    "3": 903,
+    "4": 957,
+    "5": 976,
+    "6": 486
+  },
+  "one_positions_simultaneous": false,
+  "zero_positions_simultaneous": false,
+  "poses": {
+    "middle": [
+      0.4553072625698324,
+      0.5398230088495575,
+      0.5513698630136986,
+      0.5157232704402516,
+      0.5,
+      0.038560411311053984
+    ]
+  },
+  "pose_recording": {
+    "joint_order": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "calibration_fingerprint": "4ae14065de3bb5888d1367354b7c8796ffc48b27958599ece9f0cc2954e5f10f",
+    "recorded_at": "2026-10-01T13:58:26.176796+08:00",
+    "raw_positions": {
+      "middle": {
+        "1": 383,
+        "2": 683,
+        "3": 641,
+        "4": 649,
+        "5": 688,
+        "6": 112
+      }
+    },
+    "endpoint_adjustments": {
+      "middle": {}
+    },
+    "motion_tested": false,
+    "source": "Previous Middle references for ID1-4/6; user supplied ID5 zero=688 after reassembly. Not a new simultaneous hardware capture."
+  },
+  "last_update": {
+    "joint_ids": [
+      5
+    ],
+    "zero": 400,
+    "one": 976,
+    "angle_zero": 688,
+    "source": "user confirmed after mechanical reassembly",
+    "hardware_written": false
+  }
+}

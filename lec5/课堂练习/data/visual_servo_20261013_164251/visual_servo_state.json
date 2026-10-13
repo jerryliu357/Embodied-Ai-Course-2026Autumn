@@ -1,0 +1,18 @@
+{
+  "pid": 38288,
+  "closed": true,
+  "updated_at": 1791880973.0211015,
+  "observe_only": true,
+  "camera_frames": 0,
+  "aruco_found": false,
+  "marker_id": null,
+  "center_px": null,
+  "depth_cm": null,
+  "pnp_rms_px": null,
+  "stable": false,
+  "decision": "wait",
+  "robot_connected": false,
+  "motion_unlocked": false,
+  "busy": false,
+  "auto_enabled": false
+}

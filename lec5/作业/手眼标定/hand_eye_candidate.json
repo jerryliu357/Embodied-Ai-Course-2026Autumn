@@ -1,0 +1,57 @@
+{
+  "status": "provisional_requires_physical_validation",
+  "approved_for_robot_motion": false,
+  "method": "DANIILIDIS",
+  "T_end_effector_camera": [
+    [
+      0.9978547716159402,
+      0.05104663503297703,
+      -0.04098897187183427,
+      0.0034220074304390563
+    ],
+    [
+      -0.06489566204437455,
+      0.8537782042894352,
+      -0.5165765489529404,
+      0.0820895105656763
+    ],
+    [
+      0.008625996239409291,
+      0.5181283807437278,
+      0.8552593602275045,
+      -0.09909327898970195
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "transform_definition": "p_end_effector = T_end_effector_camera @ p_camera",
+  "translation_unit": "m",
+  "source_sessions": [
+    {
+      "session": "D:\\Desktop\\CS\\具身智能\\lec5\\课堂练习\\data\\hand_eye_20261013_160636",
+      "sample_count": 5
+    },
+    {
+      "session": "D:\\Desktop\\CS\\具身智能\\lec5\\课堂练习\\data\\hand_eye_20261013_162104",
+      "sample_count": 7
+    }
+  ],
+  "samples": [
+    "S1-01",
+    "S1-02",
+    "S1-03",
+    "S1-04",
+    "S1-05",
+    "S2-01",
+    "S2-02",
+    "S2-03",
+    "S2-04",
+    "S2-05",
+    "S2-06",
+    "S2-07"
+  ]
+}

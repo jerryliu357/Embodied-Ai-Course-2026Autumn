@@ -1,0 +1,14 @@
+{
+  "camera_name": "GENERAL WEBCAM",
+  "image_size": [
+    1280,
+    720
+  ],
+  "pattern_inner_corners": [
+    6,
+    8
+  ],
+  "square_size_mm": 25.0,
+  "created_at": "2026-10-12T21:01:22.790028",
+  "focus_note": "采集和使用时保持焦距、分辨率、缩放一致"
+}

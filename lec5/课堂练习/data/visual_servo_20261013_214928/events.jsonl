@@ -1,0 +1,4 @@
+{"time": "2026-10-13T21:49:31.291", "kind": "connected", "value": "自动识别串口"}
+{"time": "2026-10-13T21:49:52.187", "kind": "stop_requested", "value": null}
+{"time": "2026-10-13T21:49:52.240", "kind": "held", "value": null}
+{"time": "2026-10-13T21:49:53.324", "kind": "worker_closed", "value": null}

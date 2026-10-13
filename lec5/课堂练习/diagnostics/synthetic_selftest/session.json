@@ -1,0 +1,12 @@
+{
+  "camera_name": "SYNTHETIC_TEST_NOT_REAL_CAMERA",
+  "image_size": [
+    1280,
+    720
+  ],
+  "pattern_inner_corners": [
+    6,
+    8
+  ],
+  "square_size_mm": 25
+}
