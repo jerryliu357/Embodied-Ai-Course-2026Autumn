@@ -1,0 +1,5 @@
+# Run pip with D:\miniconda\envs\lerobot\python.exe. Most packages already exist.
+sounddevice>=0.5
+numpy
+Pillow
+opencv-contrib-python

@@ -1,0 +1,14 @@
+{
+  "model": "SCS215",
+  "degrees_per_count": 0.322265625,
+  "updated_at": "2026-10-21T00:00:00+08:00",
+  "note": "User measured ranges updated on 2026-10-21 for IDs 3/5/6. angle_zero, degrees_per_count and direction unchanged. Live source for lec4 IK_SCS215 and lec6 4.1/4.2; historical course calibration copies retain their original pose normalization.",
+  "joints": [
+    {"id": 1, "name": "底座旋转", "range_0": 57, "range_1": 773, "angle_zero": 383},
+    {"id": 2, "name": "肩部抬升", "range_0": 317, "range_1": 995, "angle_zero": 683},
+    {"id": 3, "name": "肘部弯曲", "range_0": 319, "range_1": 910, "angle_zero": 641},
+    {"id": 4, "name": "手腕弯曲", "range_0": 321, "range_1": 957, "angle_zero": 649},
+    {"id": 5, "name": "手腕旋转", "range_0": 191, "range_1": 1010, "angle_zero": 688},
+    {"id": 6, "name": "夹爪", "range_0": 96, "range_1": 494, "angle_zero": 112}
+  ]
+}

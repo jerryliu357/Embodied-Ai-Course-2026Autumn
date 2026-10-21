@@ -30,6 +30,7 @@ node_modules/
 /lec2/homework/lerobot/
 
 # Temporary working files and local credentials.
+APIKEYS/
 /tmp/
 .env
 .env.*
@@ -37,3 +38,6 @@ node_modules/
 !.env.sample
 Thumbs.db
 .DS_Store
+
+# Classroom exercises stay local for every lesson.
+/lec*/课堂练习/
